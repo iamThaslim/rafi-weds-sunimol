@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --font-marcellus: var(--font-marcellus);
+  --font-herr-von-muellerhoff: var(--font-herr-von-muellerhoff);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-marcellus), Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #FF0000 0%, #FFD700 25%, #FF0000 50%, #FF4500 75%, #FFD700 100%);
+  background-size: 400% 400%;
+  animation: supermanGradient 15s ease infinite;
+  color: white;
+  min-height: 100vh;
+}
+
+@keyframes supermanGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Custom font utility classes */
+.font-marcellus {
+  font-family: var(--font-marcellus), serif !important;
+}
+
+.font-herr-von-muellerhoff {
+  font-family: var(--font-herr-von-muellerhoff), cursive !important;
+}
+
+.text-font-heading {
+  font-family: var(--font-herr-von-muellerhoff), cursive !important;
+}
+
+.text-font-body {
+  font-family: var(--font-marcellus), serif !important;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  body {
+    background: #000000;
+    color: #ffffff;
+  }
+}
