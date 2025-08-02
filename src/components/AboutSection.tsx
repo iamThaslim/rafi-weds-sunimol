@@ -57,8 +57,8 @@ export default function AboutSection() {
               </p>
               
               <p className="bg-white/10 p-4 rounded-lg border-l-4 border-white/30">
-                🕋 "And among His signs is that He created for you spouses from among yourselves,
-                so that you may find tranquility in them, and He placed between you affection and mercy..."
+                🕋 &quot;And among His signs is that He created for you spouses from among yourselves,
+                so that you may find tranquility in them, and He placed between you affection and mercy...&quot;
                 <br />
                 <span className="text-sm opacity-80">— Surah Ar-Rum (30:21)</span>
               </p>
