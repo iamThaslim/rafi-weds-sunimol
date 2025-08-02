@@ -33,20 +33,46 @@ export default function AboutSection() {
               viewport={{ once: true }}
               className="font-marcellus text-lg md:text-xl text-white leading-relaxed space-y-6"
             >
-              <p>
-                Mohammed Rafi and Sunimol&apos;s journey began as a beautiful friendship that blossomed into eternal love. 
-                Their bond has been strengthened through shared dreams, laughter, and unwavering support for one another.
+              <p className="text-center italic mb-6">
+                In the Name of Allah, the Most Gracious, the Most Merciful
               </p>
               
               <p>
-                As they embark on this new chapter of their lives together, they invite you to witness and celebrate 
-                their union. Your presence would add joy and meaning to their special day, creating memories that will 
-                be cherished forever.
+                Two souls, brought together not by chance,
+                but by the beautiful plan of Allah (SWT),
+                are now united in Nikah.
               </p>
               
               <p>
-                Join them as they exchange vows and begin their married life surrounded by the love and blessings 
-                of family and friends at The Celestial Gardens in the picturesque town of Lorienvale.
+                With hearts full of gratitude and joy,
+                <span className="font-semibold"> Mohammed Rafi and Sunimol</span>
+                <br />
+                along with their families,
+                <br />
+                request the honor of your presence
+                <br />
+                as they begin their journey of love, faith, and companionship
+                <br />
+                through the sacred bond of marriage.
+              </p>
+              
+              <p className="bg-white/10 p-4 rounded-lg border-l-4 border-white/30">
+                🕋 "And among His signs is that He created for you spouses from among yourselves,
+                so that you may find tranquility in them, and He placed between you affection and mercy..."
+                <br />
+                <span className="text-sm opacity-80">— Surah Ar-Rum (30:21)</span>
+              </p>
+              
+              <p>
+                Join us to witness and bless the Nikah ceremony
+                <br />
+                at
+                <br />
+                📍 <span className="font-semibold">Ponnurunni Juma Masjid Auditorium, Thammanam, Palarivattom, Ernakulam, Kerala</span>
+              </p>
+              
+              <p className="text-center">
+                May your presence make this day more meaningful and memorable.
               </p>
             </motion.div>
           </motion.div>

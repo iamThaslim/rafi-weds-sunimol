@@ -24,7 +24,7 @@ export default function LocationSection() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="The Celestial Gardens Location"
+                title="MPM Pallipadi Auditorium Location"
                 className="filter brightness-90 contrast-110"
               ></iframe>
             </div>
@@ -56,29 +56,31 @@ export default function LocationSection() {
               className="font-marcellus text-lg md:text-xl text-white leading-relaxed space-y-6"
             >
               <p>
-                The Celestial Gardens is a breathtaking venue nestled in the heart of Lorienvale, 
-                offering an enchanting backdrop for our special celebration. With its lush gardens, 
-                elegant architecture, and magical ambiance, it provides the perfect setting for our wedding reception.
+                MPM Pallipadi Auditorium in Kaloor, Ernakulam has been serving the community for many years 
+                as a leading auditorium venue. Conveniently located near Pallipadi Juma Masjid, Palarivattom, 
+                this banquet hall blends sophistication and comfort, making it an ideal choice for our special Nikah ceremony.
               </p>
               
               <p>
-                The venue features beautifully manicured gardens, twinkling lights, and sophisticated 
-                indoor spaces that seamlessly blend with nature. Every corner of this venue tells a story 
-                of romance and elegance, making it the ideal place to begin our new journey together.
+                Established in 2019 and rated 4.1 stars based on 233 reviews, MPM Pallipadi Auditorium has 
+                earned a reputation for making every occasion memorable. The venue specializes in hosting 
+                a variety of events, offering ample space for large gatherings as well as intimate celebrations.
               </p>
               
               <p>
-                Located conveniently in Lorienvale, the venue offers ample parking and easy accessibility 
-                for all our guests. The serene environment and stunning views will create lasting memories 
-                for everyone who joins us on this joyous occasion.
+                The auditorium provides excellent amenities to ensure comfort for all our guests, including 
+                wheelchair accessible entrance and exit, as well as wheelchair accessible car parking facilities, 
+                ensuring that everyone can join us in celebrating this blessed occasion.
               </p>
               
               <div className="mt-8 p-6 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20">
-                <h4 className="font-herr-von-muellerhoff text-2xl mb-4 text-white">Getting There</h4>
-                <p className="text-white/90">
-                  The venue is easily accessible by car and public transportation. 
-                  Detailed directions and parking information will be provided closer to the date.
-                </p>
+                <h4 className="font-herr-von-muellerhoff text-2xl mb-4 text-white">Venue Details</h4>
+                <div className="text-white/90 space-y-2">
+                  <p><strong>📍 Location:</strong> Near Pallipadi Juma Masjid, Palarivattom, Kaloor, Ernakulam</p>
+                  <p><strong>⭐ Rating:</strong> 4.1/5 stars (233 reviews)</p>
+                  <p><strong>🚗 Accessibility:</strong> Wheelchair accessible entrance, exit, and parking</p>
+                  <p><strong>📅 Established:</strong> 2019</p>
+                </div>
               </div>
             </motion.div>
           </motion.div>
